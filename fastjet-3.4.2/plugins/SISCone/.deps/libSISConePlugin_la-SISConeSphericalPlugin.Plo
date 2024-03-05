@@ -1,0 +1,554 @@
+libSISConePlugin_la-SISConeSphericalPlugin.lo: SISConeSphericalPlugin.cc \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/stdc-predef.h \
+ ../../include/fastjet/ClusterSequence.hh \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/vector \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/stl_algobase.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/x86_64-conda-linux-gnu/bits/c++config.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/x86_64-conda-linux-gnu/bits/os_defines.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/features.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/sys/cdefs.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/wordsize.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/gnu/stubs.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/gnu/stubs-64.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/x86_64-conda-linux-gnu/bits/cpu_defines.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/pstl/pstl_config.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/functexcept.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/exception_defines.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/cpp_type_traits.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/ext/type_traits.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/ext/numeric_traits.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/stl_pair.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/move.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/type_traits \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/stl_iterator_base_types.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/stl_iterator_base_funcs.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/concept_check.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/debug/assertions.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/stl_iterator.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/ptr_traits.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/debug/debug.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/predefined_ops.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/allocator.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/x86_64-conda-linux-gnu/bits/c++allocator.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/ext/new_allocator.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/new \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/exception \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/exception.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/exception_ptr.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/cxxabi_init_exception.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/lib/gcc/x86_64-conda-linux-gnu/10.4.0/include/stddef.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/typeinfo \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/hash_bytes.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/nested_exception.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/memoryfwd.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/stl_construct.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/stl_uninitialized.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/ext/alloc_traits.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/alloc_traits.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/stl_vector.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/initializer_list \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/stl_bvector.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/functional_hash.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/range_access.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/iterator_concepts.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/concepts \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/range_cmp.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/vector.tcc \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/map \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/stl_tree.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/stl_function.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/backward/binders.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/ext/aligned_buffer.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/node_handle.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/optional \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/utility \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/stl_relops.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/enable_special_members.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/stl_map.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/tuple \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/array \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/uses_allocator.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/invoke.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/stl_multimap.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/erase_if.h \
+ ../../include/fastjet/PseudoJet.hh \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/valarray \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/cmath \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/math.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/huge_val.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/huge_valf.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/huge_vall.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/inf.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/nan.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/mathdef.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/mathcalls.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/mathinline.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/std_abs.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/stdlib.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/waitflags.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/waitstatus.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/endian.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/endian.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/byteswap.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/types.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/typesizes.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/byteswap-16.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/xlocale.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/sys/types.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/time.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/sys/select.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/select.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/sigset.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/time.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/select2.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/sys/sysmacros.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/pthreadtypes.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/alloca.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/stdlib-float.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/stdlib.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/specfun.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/limits \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/tr1/gamma.tcc \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/tr1/special_function_util.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/tr1/bessel_function.tcc \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/tr1/beta_function.tcc \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/tr1/ell_integral.tcc \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/tr1/exp_integral.tcc \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/tr1/hypergeometric.tcc \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/tr1/legendre_function.tcc \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/tr1/modified_bessel_func.tcc \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/tr1/poly_hermite.tcc \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/tr1/poly_laguerre.tcc \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/tr1/riemann_zeta.tcc \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/algorithm \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/stl_algo.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/cstdlib \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/algorithmfwd.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/stl_heap.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/stl_tempbuf.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/uniform_int_dist.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/pstl/glue_algorithm_defs.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/functional \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/refwrap.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/std_function.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/unordered_map \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/hashtable.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/hashtable_policy.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/unordered_map.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/pstl/execution_defs.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/valarray_array.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/valarray_array.tcc \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/valarray_before.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/slice_array.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/valarray_after.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/gslice.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/gslice_array.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/mask_array.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/indirect_array.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/cassert \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/assert.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/iostream \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/ostream \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/ios \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/iosfwd \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/stringfwd.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/postypes.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/cwchar \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/wchar.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/stdio.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/lib/gcc/x86_64-conda-linux-gnu/10.4.0/include/stdarg.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/wchar.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/wchar2.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/char_traits.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/cstdint \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/lib/gcc/x86_64-conda-linux-gnu/10.4.0/include/stdint.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/stdint.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/localefwd.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/x86_64-conda-linux-gnu/bits/c++locale.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/clocale \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/locale.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/locale.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/cctype \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/ctype.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/ios_base.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/ext/atomicity.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/x86_64-conda-linux-gnu/bits/gthr.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/x86_64-conda-linux-gnu/bits/gthr-default.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/pthread.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/sched.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/sched.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/timex.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/setjmp.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/x86_64-conda-linux-gnu/bits/atomic_word.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/locale_classes.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/string \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/ostream_insert.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/cxxabi_forced.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/basic_string.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/string_view \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/string_view.tcc \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/ext/string_conversions.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/cstdio \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/libio.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/_G_config.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/stdio_lim.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/sys_errlist.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/stdio.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/stdio2.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/cerrno \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/errno.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/errno.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/linux/errno.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/asm/errno.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/asm-generic/errno.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/asm-generic/errno-base.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/charconv.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/basic_string.tcc \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/locale_classes.tcc \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/system_error \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/x86_64-conda-linux-gnu/bits/error_constants.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/stdexcept \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/streambuf \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/streambuf.tcc \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/basic_ios.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/locale_facets.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/cwctype \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/wctype.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/x86_64-conda-linux-gnu/bits/ctype_base.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/streambuf_iterator.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/x86_64-conda-linux-gnu/bits/ctype_inline.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/locale_facets.tcc \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/basic_ios.tcc \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/ostream.tcc \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/istream \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/istream.tcc \
+ ../../include/fastjet/config.h ../../include/fastjet/config_auto.h \
+ ../../include/fastjet/internal/numconsts.hh \
+ ../../include/fastjet/internal/base.hh \
+ ../../include/fastjet/internal/IsBase.hh \
+ ../../include/fastjet/SharedPtr.hh \
+ ../../include/fastjet/internal/deprecated.hh \
+ ../../include/fastjet/Error.hh \
+ ../../include/fastjet/PseudoJetStructureBase.hh \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/memory \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/stl_raw_storage_iter.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/ranges_uninitialized.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/ext/concurrence.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/unique_ptr.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/shared_ptr.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/shared_ptr_base.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/allocated_ptr.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/shared_ptr_atomic.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/atomic_base.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/atomic_lockfree_defines.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/backward/auto_ptr.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/pstl/glue_memory_defs.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/set \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/stl_set.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/stl_multiset.h \
+ ../../include/fastjet/JetDefinition.hh \
+ ../../include/fastjet/LimitedWarning.hh \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/list \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/stl_list.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/list.tcc \
+ ../../include/fastjet/internal/thread_safety_helpers.hh \
+ ../../include/fastjet/FunctionOfPseudoJet.hh \
+ ../../include/fastjet/Selector.hh \
+ ../../include/fastjet/RangeDefinition.hh \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/sstream \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/sstream.tcc \
+ ../../include/fastjet/ClusterSequenceStructure.hh \
+ fastjet/SISConeSphericalPlugin.hh fastjet/SISConeBasePlugin.hh \
+ siscone/siscone/spherical/momentum.h \
+ /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/math.h \
+ siscone/siscone/reference.h siscone/siscone/spherical/geom_2d.h \
+ siscone/siscone/defines.h siscone/siscone/geom_2d.h \
+ siscone/siscone/defines.h siscone/siscone/spherical/siscone.h \
+ siscone/siscone/spherical/protocones.h \
+ siscone/siscone/spherical/momentum.h \
+ siscone/siscone/spherical/vicinity.h siscone/siscone/vicinity.h \
+ siscone/siscone/momentum.h siscone/siscone/reference.h \
+ siscone/siscone/geom_2d.h siscone/siscone/quadtree.h \
+ siscone/siscone/spherical/hash.h siscone/siscone/spherical/split_merge.h \
+ siscone/siscone/config.h
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/stdc-predef.h:
+../../include/fastjet/ClusterSequence.hh:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/vector:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/stl_algobase.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/x86_64-conda-linux-gnu/bits/c++config.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/x86_64-conda-linux-gnu/bits/os_defines.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/features.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/sys/cdefs.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/wordsize.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/gnu/stubs.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/gnu/stubs-64.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/x86_64-conda-linux-gnu/bits/cpu_defines.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/pstl/pstl_config.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/functexcept.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/exception_defines.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/cpp_type_traits.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/ext/type_traits.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/ext/numeric_traits.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/stl_pair.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/move.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/type_traits:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/stl_iterator_base_types.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/stl_iterator_base_funcs.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/concept_check.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/debug/assertions.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/stl_iterator.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/ptr_traits.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/debug/debug.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/predefined_ops.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/allocator.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/x86_64-conda-linux-gnu/bits/c++allocator.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/ext/new_allocator.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/new:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/exception:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/exception.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/exception_ptr.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/cxxabi_init_exception.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/lib/gcc/x86_64-conda-linux-gnu/10.4.0/include/stddef.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/typeinfo:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/hash_bytes.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/nested_exception.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/memoryfwd.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/stl_construct.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/stl_uninitialized.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/ext/alloc_traits.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/alloc_traits.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/stl_vector.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/initializer_list:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/stl_bvector.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/functional_hash.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/range_access.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/iterator_concepts.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/concepts:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/range_cmp.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/vector.tcc:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/map:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/stl_tree.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/stl_function.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/backward/binders.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/ext/aligned_buffer.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/node_handle.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/optional:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/utility:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/stl_relops.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/enable_special_members.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/stl_map.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/tuple:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/array:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/uses_allocator.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/invoke.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/stl_multimap.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/erase_if.h:
+../../include/fastjet/PseudoJet.hh:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/valarray:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/cmath:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/math.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/huge_val.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/huge_valf.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/huge_vall.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/inf.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/nan.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/mathdef.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/mathcalls.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/mathinline.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/std_abs.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/stdlib.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/waitflags.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/waitstatus.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/endian.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/endian.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/byteswap.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/types.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/typesizes.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/byteswap-16.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/xlocale.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/sys/types.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/time.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/sys/select.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/select.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/sigset.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/time.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/select2.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/sys/sysmacros.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/pthreadtypes.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/alloca.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/stdlib-float.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/stdlib.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/specfun.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/limits:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/tr1/gamma.tcc:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/tr1/special_function_util.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/tr1/bessel_function.tcc:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/tr1/beta_function.tcc:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/tr1/ell_integral.tcc:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/tr1/exp_integral.tcc:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/tr1/hypergeometric.tcc:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/tr1/legendre_function.tcc:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/tr1/modified_bessel_func.tcc:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/tr1/poly_hermite.tcc:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/tr1/poly_laguerre.tcc:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/tr1/riemann_zeta.tcc:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/algorithm:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/stl_algo.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/cstdlib:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/algorithmfwd.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/stl_heap.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/stl_tempbuf.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/uniform_int_dist.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/pstl/glue_algorithm_defs.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/functional:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/refwrap.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/std_function.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/unordered_map:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/hashtable.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/hashtable_policy.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/unordered_map.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/pstl/execution_defs.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/valarray_array.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/valarray_array.tcc:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/valarray_before.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/slice_array.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/valarray_after.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/gslice.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/gslice_array.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/mask_array.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/indirect_array.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/cassert:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/assert.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/iostream:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/ostream:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/ios:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/iosfwd:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/stringfwd.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/postypes.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/cwchar:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/wchar.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/stdio.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/lib/gcc/x86_64-conda-linux-gnu/10.4.0/include/stdarg.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/wchar.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/wchar2.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/char_traits.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/cstdint:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/lib/gcc/x86_64-conda-linux-gnu/10.4.0/include/stdint.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/stdint.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/localefwd.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/x86_64-conda-linux-gnu/bits/c++locale.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/clocale:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/locale.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/locale.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/cctype:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/ctype.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/ios_base.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/ext/atomicity.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/x86_64-conda-linux-gnu/bits/gthr.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/x86_64-conda-linux-gnu/bits/gthr-default.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/pthread.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/sched.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/sched.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/timex.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/setjmp.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/x86_64-conda-linux-gnu/bits/atomic_word.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/locale_classes.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/string:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/ostream_insert.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/cxxabi_forced.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/basic_string.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/string_view:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/string_view.tcc:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/ext/string_conversions.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/cstdio:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/libio.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/_G_config.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/stdio_lim.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/sys_errlist.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/stdio.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/stdio2.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/cerrno:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/errno.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/bits/errno.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/linux/errno.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/asm/errno.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/asm-generic/errno.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/asm-generic/errno-base.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/charconv.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/basic_string.tcc:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/locale_classes.tcc:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/system_error:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/x86_64-conda-linux-gnu/bits/error_constants.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/stdexcept:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/streambuf:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/streambuf.tcc:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/basic_ios.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/locale_facets.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/cwctype:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/sysroot/usr/include/wctype.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/x86_64-conda-linux-gnu/bits/ctype_base.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/streambuf_iterator.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/x86_64-conda-linux-gnu/bits/ctype_inline.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/locale_facets.tcc:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/basic_ios.tcc:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/ostream.tcc:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/istream:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/istream.tcc:
+../../include/fastjet/config.h:
+../../include/fastjet/config_auto.h:
+../../include/fastjet/internal/numconsts.hh:
+../../include/fastjet/internal/base.hh:
+../../include/fastjet/internal/IsBase.hh:
+../../include/fastjet/SharedPtr.hh:
+../../include/fastjet/internal/deprecated.hh:
+../../include/fastjet/Error.hh:
+../../include/fastjet/PseudoJetStructureBase.hh:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/memory:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/stl_raw_storage_iter.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/ranges_uninitialized.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/ext/concurrence.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/unique_ptr.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/shared_ptr.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/shared_ptr_base.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/allocated_ptr.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/shared_ptr_atomic.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/atomic_base.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/atomic_lockfree_defines.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/backward/auto_ptr.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/pstl/glue_memory_defs.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/set:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/stl_set.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/stl_multiset.h:
+../../include/fastjet/JetDefinition.hh:
+../../include/fastjet/LimitedWarning.hh:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/list:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/stl_list.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/list.tcc:
+../../include/fastjet/internal/thread_safety_helpers.hh:
+../../include/fastjet/FunctionOfPseudoJet.hh:
+../../include/fastjet/Selector.hh:
+../../include/fastjet/RangeDefinition.hh:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/sstream:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/bits/sstream.tcc:
+../../include/fastjet/ClusterSequenceStructure.hh:
+fastjet/SISConeSphericalPlugin.hh:
+fastjet/SISConeBasePlugin.hh:
+siscone/siscone/spherical/momentum.h:
+/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/x86_64-conda-linux-gnu/include/c++/10.4.0/math.h:
+siscone/siscone/reference.h:
+siscone/siscone/spherical/geom_2d.h:
+siscone/siscone/defines.h:
+siscone/siscone/geom_2d.h:
+siscone/siscone/defines.h:
+siscone/siscone/spherical/siscone.h:
+siscone/siscone/spherical/protocones.h:
+siscone/siscone/spherical/momentum.h:
+siscone/siscone/spherical/vicinity.h:
+siscone/siscone/vicinity.h:
+siscone/siscone/momentum.h:
+siscone/siscone/reference.h:
+siscone/siscone/geom_2d.h:
+siscone/siscone/quadtree.h:
+siscone/siscone/spherical/hash.h:
+siscone/siscone/spherical/split_merge.h:
+siscone/siscone/config.h:
