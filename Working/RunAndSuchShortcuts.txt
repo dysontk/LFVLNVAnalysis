@@ -1,0 +1,30 @@
+# All these are meant to be run within ~/Madgraph on unity
+
+# Commands for generating the proccess:
+./bin/mg5_aMC ~/Madgraph/Working/GenerationFiles/LNV_proc.dat
+./bin/mg5_aMC ~/Madgraph/Working/GenerationFiles/WZ_proc.dat
+./bin/mg5_aMC ~/Madgraph/Working/GenerationFiles/W3j_proc.dat
+./bin/mg5_aMC ~/Madgraph/Working/GenerationFiles/ZZ_proc.dat
+./bin/mg5_aMC ~/Madgraph/Working/GenerationFiles/ttbar_proc.dat
+
+# Commands for generating the events:
+export PYTHIA8DATA="/home/dkennedy_umass_edu/Madgraph/HEPTools/pythia8/share/Pythia8/xmldoc/";
+./Working/Generated/LNV/bin/madevent ./Working/GenerationFiles/LNV_run.dat
+
+export PYTHIA8DATA="/home/dkennedy_umass_edu/Madgraph/HEPTools/pythia8/share/Pythia8/xmldoc/";
+./Working/Generated/WZ2j/bin/madevent ./Working/GenerationFiles/WZ_run.dat
+
+export PYTHIA8DATA="/home/dkennedy_umass_edu/Madgraph/HEPTools/pythia8/share/Pythia8/xmldoc/";
+./Working/Generated/WZ2j/bin/madevent ./Working/GenerationFiles/WZ_run.dat
+
+export PYTHIA8DATA="/home/dysontravis/Madgraph/HEPTools/pythia8/share/Pythia8/xmldoc/";
+sudo ./mnt/d/Research/Generated/ZZ2j/bin/madevent ./GenerationFiles/ZZ_run.dat
+
+export PYTHIA8DATA="/home/dysontravis/Madgraph/HEPTools/pythia8/share/Pythia8/xmldoc/";
+./Generated/ttbar/bin/madevent ./GenerationFiles/ttbar_run.dat
+
+
+# These are all the run and process files currently* in GenerationFiles
+W3j_proc.dat  W3j_run.dat  WZ_proc.dat  WZ_run.dat  ZZ_proc.dat  ZZ_run.dat  ttbar_proc.dat  ttbar_run.dat
+
+See if I can ssh in on windows such that I can open up the .html files...
