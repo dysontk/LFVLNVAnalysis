@@ -146,9 +146,10 @@ Setting grid   1    0.23669E-05   1
 Setting grid   4    0.94675E-05   1
 Setting grid   5    0.14619E-04   1
  Transforming s_hat 1/s           15   1.2316209098858926E-004   5200.0000000000000        168999999.99999997     
+ Got moffset           1
 Using random seed offsets    26 :      6
-  with seed                   27
- Ranmar initialization seeds        4660        9407
+  with seed                   39
+ Ranmar initialization seeds       19288       12576
  
  ********************************************
  * You are using the DiscreteSampler module *
@@ -178,55 +179,55 @@ xqcutij # 6>     0.0     0.0     0.0     0.0     0.0     0.0
 xqcutij # 7>     0.0     0.0     0.0     0.0     0.0    20.0
  No cut BW           -2           1
  No cut BW           -3           2
- alpha_s for scale    97.592559594830831       is   0.12854414529129893     
+ alpha_s for scale    98.428066096711092       is   0.12836366339956440     
  RESET CUMULATIVE VARIABLE
- Iteration  1   Mean: 0.1122E-02 Abs mean: 0.1122E-02   Fluctuation:  0.138E-03   0.668E-01     4.2%
-  1    0.1122E-02 0.1122E-02 +- 0.1385E-03      3.90
- Writing out events   3.7747106104052580E-006   3.9030665309157957     
+ Iteration  1   Mean: 0.1429E-02 Abs mean: 0.1429E-02   Fluctuation:  0.168E-03   0.785E-01     4.5%
+  1    0.1429E-02 0.1429E-02 +- 0.1677E-03      3.71
+ Writing out events   4.5821410326910174E-006   3.7115688243296336     
  Relative summed weights:
-  0.1784E+00  0.1295E+00  0.1508E+00  0.2738E+00  0.8574E-01  0.5835E-01  0.4260E-01  0.8078E-01
+  0.1312E+00  0.2726E+00  0.1532E+00  0.2628E+00  0.3255E-01  0.6824E-01  0.2976E-01  0.4966E-01
  Relative number of events:
-  0.2081E+00  0.1952E+00  0.2180E+00  0.2359E+00  0.3370E-01  0.4658E-01  0.3667E-01  0.2577E-01
+  0.1487E+00  0.1774E+00  0.1883E+00  0.1814E+00  0.7334E-01  0.9019E-01  0.6838E-01  0.7235E-01
  Events:
-         210         197         220         238          34          47          37          26
- Iteration  2   Mean: 0.9332E-03 Abs mean: 0.9332E-03   Fluctuation:  0.691E-04   0.486E-01    15.7%
-  2    0.9332E-03 0.9332E-03 +- 0.6914E-04      3.31
+         150         179         190         183          74          91          69          73
+ Iteration  2   Mean: 0.1344E-02 Abs mean: 0.1344E-02   Fluctuation:  0.127E-03   0.888E-01    13.5%
+  2    0.1344E-02 0.1344E-02 +- 0.1271E-03      4.23
  Relative summed weights:
-  0.2062E+00  0.2386E+00  0.1741E+00  0.1823E+00  0.4297E-01  0.5241E-01  0.6309E-01  0.4029E-01
+  0.1909E+00  0.3269E+00  0.1900E+00  0.1245E+00  0.5533E-01  0.5407E-01  0.2699E-01  0.3138E-01
  Relative number of events:
-  0.2215E+00  0.2375E+00  0.2145E+00  0.2170E+00  0.2700E-01  0.2850E-01  0.2850E-01  0.2550E-01
+  0.1805E+00  0.1890E+00  0.1830E+00  0.1835E+00  0.6050E-01  0.6250E-01  0.7400E-01  0.6700E-01
  Events:
-         443         475         429         434          54          57          57          51
- Iteration  3   Mean: 0.1161E-02 Abs mean: 0.1161E-02   Fluctuation:  0.967E-04   0.293E+00    17.4%
-  3    0.1161E-02 0.1161E-02 +- 0.9669E-04      5.27
+         361         378         366         367         121         125         148         134
+ Iteration  3   Mean: 0.1625E-02 Abs mean: 0.1625E-02   Fluctuation:  0.385E-03   0.152E+01    15.6%
+  3    0.1625E-02 0.1625E-02 +- 0.3853E-03     15.00
  Relative summed weights:
-  0.2621E+00  0.1817E+00  0.2099E+00  0.1933E+00  0.3857E-01  0.2423E-01  0.4332E-01  0.4694E-01
+  0.1635E+00  0.4357E+00  0.1302E+00  0.1479E+00  0.3141E-01  0.2886E-01  0.2840E-01  0.3413E-01
  Relative number of events:
-  0.2240E+00  0.2240E+00  0.2240E+00  0.2160E+00  0.2925E-01  0.2575E-01  0.3000E-01  0.2700E-01
+  0.1980E+00  0.1893E+00  0.1905E+00  0.1772E+00  0.5900E-01  0.6100E-01  0.6225E-01  0.6275E-01
  Events:
-         896         896         896         864         117         103         120         108
- Accuracy:    0.073   0.100   0.051   2.095
- Finished due to accuracy    7.3097865285959185E-002  0.10000000000000001     
+         792         757         762         709         236         244         249         251
+ Accuracy:    0.041   0.100   0.070   0.336
+ Finished due to accuracy    4.0741791893948456E-002  0.10000000000000001     
 
  -------------------------------------------------------------------------------
- Accumulated results:   Integral =  0.1049E-02
-                        Std dev  =  0.5296E-04
-                       Cross sec =  0.1049E-02
-             Chi**2 per DoF.     =      2.0947
+ Accumulated results:   Integral =  0.1399E-02
+                        Std dev  =  0.9840E-04
+                       Cross sec =  0.1399E-02
+             Chi**2 per DoF.     =      0.3356
  -------------------------------------------------------------------------------
- Found         1211  events.
- Wrote           22  events.
- Actual xsec    1.0486256359247368E-003
- Correct abs xsec    1.0486256359247368E-003
- Event xsec    1.0486256359247363E-003
- Events wgts > 1:            0
- % Cross section > 1:    0.0000000000000000        0.0000000000000000     
+ Found         1181  events.
+ Wrote            1  events.
+ Actual xsec    1.3991220896012509E-003
+ Correct abs xsec    1.3991220896012509E-003
+ Event xsec    1.3991220896012509E-003
+ Events wgts > 1:            1
+ % Cross section > 1:    6.9609325898875585E-011   4.9752145589177432E-006
 -------------------------------------------------
 ---------------------------
- Results Last   3 iters: Integral =   0.1049E-02
-                     Abs integral =   0.1049E-02
-                          Std dev =   0.5296E-04
-                  Chi**2 per DoF. =      2.2116
+ Results Last   3 iters: Integral =   0.1399E-02
+                     Abs integral =   0.1399E-02
+                          Std dev =   0.9840E-04
+                  Chi**2 per DoF. =      0.2825
 -------------------------------------------------
 ---------------------------
  Status  0.10000000000000001                4           7
@@ -235,5 +236,8 @@ ls status:
 events.lhe
 ftn26
 input_app.txt
+input_sg.txt
+moffset.dat
 results.dat
+run_02_log.txt
 run1_app.log

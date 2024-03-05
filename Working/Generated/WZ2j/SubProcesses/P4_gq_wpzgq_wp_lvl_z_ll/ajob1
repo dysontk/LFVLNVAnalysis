@@ -10,14 +10,14 @@ tar -xzf MadLoop5_resources.tar.gz
 fi
 keeplog=false
 if [ "$keeplog" = true ] ; then
-    k=run_01_app.log
+    k=run_03_app.log
 else
     k=/dev/null
 fi
 script=ajob1                         
 
 grid_directory=
-j=G33
+j=G26
      if [[ ! -e $j ]]; then
           mkdir $j
           if [[ -e $grid_directory/ftn26 ]];then
@@ -39,8 +39,8 @@ j=G33
           cp ftn26 ftn25
      fi
      # create the input file
-         echo "    1164       9       3" >& input_sg.txt
-         echo "    -252796.32295816267" >> input_sg.txt
+         echo "    3549       9       3" >& input_sg.txt
+         echo "    -2533.015353249231" >> input_sg.txt
      if [[ ! -e ftn25 ]]; then
          echo "2" >> input_sg.txt   # grid refinement
          echo "1" >> input_sg.txt   # suppress amplitude
@@ -50,7 +50,7 @@ j=G33
          echo "1" >> input_sg.txt
      fi
      echo "0" >> input_sg.txt
-     echo "33" >> input_sg.txt
+     echo "26" >> input_sg.txt
 
      # run the executable. The loop is design to avoid
      # filesystem problem (executable not found)

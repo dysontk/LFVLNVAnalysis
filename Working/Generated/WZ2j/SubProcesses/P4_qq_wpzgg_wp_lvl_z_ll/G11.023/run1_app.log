@@ -144,4 +144,5 @@ Running Configuration Number:   11
 ls status:
 input_app.txt
 results.dat
+run_02_log.txt
 run1_app.log
