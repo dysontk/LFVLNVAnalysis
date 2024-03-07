@@ -12,6 +12,8 @@ vendor/**/*.a
 cmd*
 *~
 **/__pycache__
+LHAPDF-6.5.4/
+LHAPDF-6.5.4.tar.gz
 HEPTools/
 MG5_debug
 ME5_debug
