@@ -18,7 +18,7 @@ export PYTHIA8DATA="/home/dkennedy_umass_edu/MG5_aMC_v3_5_3/HEPTools/pythia8/sha
 ./Working/Generated/W3j/bin/madevent ./Working/GenerationFiles/W3j_run.dat
 
 export PYTHIA8DATA="/home/dysontravis/MG5_aMC_v3_5_3/HEPTools/pythia8/share/Pythia8/xmldoc/";
-sudo ./mnt/d/Research/Generated/ZZ2j/bin/madevent ./GenerationFiles/ZZ_run.dat
+./Working/Generated/ZZ2j/bin/madevent ./Working/GenerationFiles/ZZ2j_run.dat
 
 export PYTHIA8DATA="/home/dysontravis/MG5_aMC_v3_5_3/HEPTools/pythia8/share/Pythia8/xmldoc/";
 ./Generated/ttbar/bin/madevent ./GenerationFiles/ttbar_run.dat
