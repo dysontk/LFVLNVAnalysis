@@ -1,7 +1,7 @@
 pdlabel1=
 pdlabel2=
 lhapdf=
-PYTHIA8_PATH=NotInstalled
+PYTHIA8_PATH=/home/dkennedy_umass_edu/MG5_aMC_v3_5_3/HEPTools/pythia8
 MG5AMC_VERSION=3.5.3
 GLOBAL_FLAG=-O
 ALOHA_FLAG=
