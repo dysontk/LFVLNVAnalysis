@@ -16,10 +16,10 @@ using namespace std;
 
 const int numDirs = 2;
 
-string startPath = "/home/dysontravis/MG5_aMC_v3_5_3/Generated/";
+string startPath = "/home/dysontravis/MG5_aMC_v3_5_3/Working/Generated/";
 
 
-string files[numDirs][2] = {{"WZ2j", "7"},{"ZZ2j", "6"}};
+string files[numDirs][2] = {{"WZ2j", "3"},{"ZZ2j", "2"}};
 
 //  {"ZZ2j", "run_01"}};
 // Copy paths
