@@ -14,12 +14,12 @@
 
 using namespace std;
 
-const int numDirs = 1;
+const int numDirs = 2;
 
 string startPath = "/home/dkennedy_umass_edu/MG5_aMC_v3_5_3/Working/Generated/";
 
 
-string files[numDirs][2] = {{"WZ2j", "1"}};
+string files[numDirs][2] = {{"WZ2j", "3"}, {"ZZ2j", "2"}};
 
 //  {"ZZ2j", "run_01"}};
 // Copy paths
