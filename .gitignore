@@ -42,3 +42,6 @@ Working/Generated/*/SubProcesses/
 Working/Generated/*/HTML/*
 Working/Generated/*/Events/
 Working/Generated/*/HTML/
+Working/Generated/*/*.html
+*.tar.gz
+*.tgz
