@@ -16,7 +16,7 @@ using namespace std;
 
 const int numDirs = 1;
 
-string startPath = "/home/dysontravis/MG5_aMC_v3_5_3/Working/Generated/";
+string startPath = "/home/dkennedy_umass_edu/MG5_aMC_v3_5_3/Working/Generated/";
 
 
 string files[numDirs][2] = {{"WZ2j", "1"}};
