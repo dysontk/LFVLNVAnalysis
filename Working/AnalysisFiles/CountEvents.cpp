@@ -14,12 +14,12 @@
 
 using namespace std;
 
-const int numDirs = 2;
+const int numDirs = 1;
 
 string startPath = "/home/dysontravis/MG5_aMC_v3_5_3/Working/Generated/";
 
 
-string files[numDirs][2] = {{"WZ2j", "3"},{"ZZ2j", "2"}};
+string files[numDirs][2] = {{"WZ2j", "1"}};
 
 //  {"ZZ2j", "run_01"}};
 // Copy paths
@@ -36,7 +36,7 @@ int main()
         for (int r=1; r<=stoi(files[i][1]); r++)
         {
             string run = "run_0"+to_string(r);
-            cout<< run << endl;
+            cout<< files[i][0] <<run << endl;
             string thisPath = startPath + files[i][0] + "/Events/" + run + "/tag_1_delphes_events.root";
             const int thisLength = thisPath.length();
             char* file_path = new char[thisLength+1];
