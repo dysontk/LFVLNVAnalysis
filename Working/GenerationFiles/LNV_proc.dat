@@ -1,0 +1,6 @@
+import model O2
+generate p p > j j e- e-
+add process p p > j j e+ e+
+add process p p > j j j e+ e+ 
+add process p p > j j j e- e-
+output ~/MG5_aMC_v3_5_3/Working/Generated/LNV
