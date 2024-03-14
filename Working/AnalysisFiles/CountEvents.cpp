@@ -36,7 +36,7 @@ int main()
         for (int r=1; r<=stoi(files[i][1]); r++)
         {
             string run = "run_0"+to_string(r);
-            cout<< files[i][0] <<run << endl;
+            cout<< files[i][0] << " " <<run << endl;
             string thisPath = startPath + files[i][0] + "/Events/" + run + "/tag_1_delphes_events.root";
             const int thisLength = thisPath.length();
             char* file_path = new char[thisLength+1];
