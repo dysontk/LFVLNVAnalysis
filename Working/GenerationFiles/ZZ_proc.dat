@@ -1,3 +1,3 @@
 generate p p > z z j, z > l+ l-, z > l+ l-
 add process p p > z z j j, z > l+ l-, z > l+ l-
-output ~/MG5_aMC_v3_5_3/Working/Generated/ZZ2j
+output /work/pi_mjrm_umass_edu/LNV_collider/Generated/ZZ2j

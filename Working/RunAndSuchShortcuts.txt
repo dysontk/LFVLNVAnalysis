@@ -9,19 +9,19 @@
 
 # Commands for generating the events:
 export PYTHIA8DATA="/home/dkennedy_umass_edu/MG5_aMC_v3_5_3/HEPTools/pythia8/share/Pythia8/xmldoc/";
-./Working/Generated/LNV/bin/madevent ./Working/GenerationFiles/LNV_run.dat
+./work/pi_mjrm_umass_edu/LNV_collider/Generated/LNV/bin/madevent ./Working/GenerationFiles/LNV_run.dat
 
 export PYTHIA8DATA="/home/dkennedy_umass_edu/MG5_aMC_v3_5_3/HEPTools/pythia8/share/Pythia8/xmldoc/";
-./Working/Generated/WZ2j/bin/madevent ./Working/GenerationFiles/WZ_run.dat
+./work/pi_mjrm_umass_edu/LNV_collider/Generated/WZ2j/bin/madevent ./Working/GenerationFiles/WZ_run.dat
 
 export PYTHIA8DATA="/home/dkennedy_umass_edu/MG5_aMC_v3_5_3/HEPTools/pythia8/share/Pythia8/xmldoc/";
-./Working/Generated/W3j/bin/madevent ./Working/GenerationFiles/W3j_run.dat
+./work/pi_mjrm_umass_edu/LNV_collider/Generated/W3j/bin/madevent ./Working/GenerationFiles/W3j_run.dat
 
 export PYTHIA8DATA="/home/dkennedy_umass_edu/MG5_aMC_v3_5_3/HEPTools/pythia8/share/Pythia8/xmldoc/";
-./Working/Generated/ZZ2j/bin/madevent ./Working/GenerationFiles/ZZ_run.dat
+./work/pi_mjrm_umass_edu/LNV_collider/Generated/ZZ2j/bin/madevent ./Working/GenerationFiles/ZZ_run.dat
 
 export PYTHIA8DATA="/home/dkennedy_umass_edu/MG5_aMC_v3_5_3/HEPTools/pythia8/share/Pythia8/xmldoc/";
-./Generated/ttbar/bin/madevent ./GenerationFiles/ttbar_run.dat
+./work/pi_mjrm_umass_edu/LNV_collider/Generated/ttbar/bin/madevent ./Working/GenerationFiles/ttbar_run.dat
 
 
 # These are all the run and process files currently* in GenerationFiles

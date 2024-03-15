@@ -2,4 +2,4 @@ generate p p > t t~, (t > w+ b, w+ > j j), (t~ > w- b~, w- > e- ve~)
 add process p p > t t~, (t > w+ b, w+ > e+ ve), (t~ > w- b~, w- > j j)
 add process p p > t t~ j, (t > w+ b, w+ > j j), (t~ > w- b~, w- > e- ve~)
 add process p p > t t~ j, (t > w+ b, w+ > e+ ve), (t~ > w- b~, w- > j j)
-output ~/MG5_aMC_v3_5_3/Working/Generated/ttbar
+output /work/pi_mjrm_umass_edu/LNV_collider/Generated/ttbar

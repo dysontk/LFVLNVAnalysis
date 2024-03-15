@@ -2,4 +2,4 @@ generate p p > w- j j, w- > e- ve~
 add process p p > w+ j j, w+ > e+ ve
 add process p p > w- j j j, w- > e- ve~
 add process p p > w+ j j j, w+ > e+ ve
-output ~/MG5_aMC_v3_5_3/Working/Generated/W3j
+output /work/pi_mjrm_umass_edu/LNV_collider/Generated/W3j
