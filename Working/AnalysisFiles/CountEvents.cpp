@@ -19,7 +19,7 @@ const int numDirs = 2;
 string startPath = "/work/pi_mjrm_umass_edu/LNV_collider/Generated/";
 
 
-string files[numDirs][2] = {{"WZ2j", "4"}, {"ZZ2j", "3"}};
+string files[numDirs][2] = {{"WZ2j", "5"}, {"ZZ2j", "5"}};
 
 //  {"ZZ2j", "run_01"}};
 // Copy paths
