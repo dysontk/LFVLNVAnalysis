@@ -38,6 +38,7 @@ int main()
             string run = "run_0"+to_string(r);
             cout<< files[i][0] << " " <<run << endl;
             string thisPath = startPath + files[i][0] + "/Events/" + run + "/tag_1_delphes_events.root";
+            cout << "Trying : " << startPath<< endl;
             const int thisLength = thisPath.length();
             char* file_path = new char[thisLength+1];
             strcpy(file_path, thisPath.c_str());
