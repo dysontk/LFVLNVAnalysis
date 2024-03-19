@@ -1,3 +1,4 @@
+//TO COMPILE:  g++ `root-config --cflags --libs` -o main main.cpp
 #include <iostream>
 #include <string>
 #include <complex>
