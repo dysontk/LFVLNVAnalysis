@@ -25,7 +25,7 @@
 // #include "TXMLEngine.h"
 #include "TTree.h"
 
-// #include "ExRootAnalysis/ExRootClasses.h"
+#include "ExRootClasses.h"
 #include "ExRootClassifier.h"
 
 #include "ExRootFactory.h"
