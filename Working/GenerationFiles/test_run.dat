@@ -1,0 +1,5 @@
+generate_events
+shower=Pythia8
+detector=Delphes
+
+
