@@ -11,7 +11,7 @@
 
 #include <stdio.h>
 #include <iostream>//needed for io
-#include "fastjet/ClusterSequence.hh"
+// #include "fastjet/ClusterSequence.hh"
 using namespace fastjet;
 
 struct sort_by_pt :

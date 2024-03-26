@@ -2,4 +2,6 @@ generate_events
 shower=Pythia8
 detector=Delphes
 
+/home/dkennedy_umass_edu/MG5_aMC_v3_5_3/Delphes/cards/card_JF.tcl 
 
+print_results
