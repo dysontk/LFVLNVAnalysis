@@ -45,3 +45,5 @@ Working/Generated/*/HTML/
 Working/Generated/*/*.html
 *.tar.gz
 *.tgz
+*.hep
+*.root
