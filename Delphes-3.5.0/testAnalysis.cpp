@@ -1,5 +1,5 @@
 {
-  // Create chain of root trees
+  // Create chain of root trees g++ `root-config --cflags --libs` -o testAnalysis testAnalysis.cpp
   TChain chain("Delphes");
   chain.Add("delphes_output.root");
 
