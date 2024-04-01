@@ -1,8 +1,7 @@
 generate_events
 
 shower=Pythia8
-detector=Delphes
-
+detector=OFF
 set use_syst False
 set automatic_html_opening False
 
