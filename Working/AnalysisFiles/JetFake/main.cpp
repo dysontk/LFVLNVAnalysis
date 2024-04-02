@@ -503,7 +503,7 @@ int main(int argc, const char * argv[])
         MW2j1l_0->GetXaxis()->SetTitle("GeV");
         MW2j1l_0->Draw();
         c1->SaveAs("Mass_2jW1l0.png");
-x
+
         MW2j1l_1->GetXaxis()->SetTitle("GeV");
         MW2j1l_1->Draw();
         c1->SaveAs("Mass_2jW1l1.png");
