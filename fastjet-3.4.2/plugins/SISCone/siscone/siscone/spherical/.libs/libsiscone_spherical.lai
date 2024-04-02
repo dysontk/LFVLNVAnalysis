@@ -17,7 +17,7 @@ old_library='libsiscone_spherical.a'
 inherited_linker_flags=''
 
 # Libraries that this one depends upon.
-dependency_libs=' -L/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/lib /home/dkennedy_umass_edu/Madgraph/fastjet-3.4.2/../fastjet-install/lib/libsiscone.la'
+dependency_libs=' -L/home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/lib /home/dkennedy_umass_edu/MG5_aMC_v3_5_3/fastjet-3.4.2/fastjet-install/lib/libsiscone.la'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/dkennedy_umass_edu/Madgraph/fastjet-3.4.2/../fastjet-install/lib'
+libdir='/home/dkennedy_umass_edu/MG5_aMC_v3_5_3/fastjet-3.4.2/fastjet-install/lib'

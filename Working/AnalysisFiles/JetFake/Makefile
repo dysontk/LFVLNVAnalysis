@@ -4,23 +4,26 @@ FC = g77
 # ROOTINC= -I/home/gangli/Documents/Simulation/MG5_aMC_v2_6_6/ExRootAnalysis/ExRootAnalysis
 # ROOTLIB= -L/home/gangli/Documents/Simulation/MG5_aMC_v2_6_6/ExRootAnalysis -lExRootAnalysis
 
-ROOTINC= -I/home/dysontravis/MG5_aMC_v3_4_0/ExRootAnalysis/ExRootAnalysis
-ROOTLIB= -L/home/dysontravis/MG5_aMC_v3_4_0/ExRootAnalysis -lExRootAnalysis
+ROOTINC= -I/home/dkennedy_umass_edu/MG5_aMC_v3_5_3/ExRootAnalysis/ExRootAnalysis
+ROOTLIB= -L/home/dkennedy_umass_edu/MG5_aMC_v3_5_3/ExRootAnalysis -lExRootAnalysis
 
 # ROOTFLAG=${shell root-config --cflags --libs}
 ROOTFLAG=${shell root-config --cflags --glibs} -lEG
 
-FJFLAG=${shell /home/dysontravis/MG5_aMC_v3_4_0/fastjet-install/bin/fastjet-config --cxxflags --libs --plugins}
+FJFLAG=${shell /home/dkennedy_umass_edu/MG5_aMC_v3_5_3/fastjet-3.4.2/fastjet-install/bin/fastjet-config --cxxflags --libs --plugins}
 
 # ROOTINC2= -I/home/gangli/Documents/Simulation/MG5_aMC_v2_6_6/Delphes/external \
 #          -I/home/gangli/Documents/Simulation/MG5_aMC_v2_6_6/Delphes/display \
 #          -I/home/gangli/Documents/Simulation/MG5_aMC_v2_6_6/Delphes
 # ROOTLIB2= -L/home/gangli/Documents/Simulation/MG5_aMC_v2_6_6/Delphes -lDelphes
 
-ROOTINC2= -I/home/dysontravis/MG5_aMC_v3_4_0/Delphes/external \
-         -I/home/dysontravis/MG5_aMC_v3_4_0/Delphes/display \
-         -I/home/dysontravis/MG5_aMC_v3_4_0/Delphes
-ROOTLIB2= -L/home/dysontravis/MG5_aMC_v3_4_0/Delphes -lDelphes
+ROOTINC2= -I/home/dkennedy_umass_edu/MG5_aMC_v3_5_3/Delphes/external \
+         -I/home/dkennedy_umass_edu/MG5_aMC_v3_5_3/Delphes/display \
+         -I/home/dkennedy_umass_edu/MG5_aMC_v3_5_3/Delphes \
+	 -I/home/dkennedy_umass_edu/MG5_aMC_v3_5_3/Delphes/external/fastjet \
+	 -I/home/dkennedy_umass_edu/MG5_aMC_v3_5_3/fastjet-3.4.2 \
+	 -I/home/dkennedy_umass_edu/MG5_aMC_v3_5_3/fastjet-3.4.2/fastjet-install/include
+ROOTLIB2= -L/home/dkennedy_umass_edu/MG5_aMC_v3_5_3/Delphes -lDelphes
 
 
 
