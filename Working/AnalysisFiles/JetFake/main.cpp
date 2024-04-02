@@ -494,24 +494,24 @@ int main(int argc, const char * argv[])
         
         MW2j->GetXaxis()->SetTitle("GeV");
         MW2j->Draw();
-        c1->SaveAs("Mass_2jW.png");
+        c1->SaveAs("/work/pi_mjrm_umass_edu/LNV_collider/AnalysisOutput/images/Mass_2jW.png");
 
         MW2j2l->GetXaxis()->SetTitle("GeV");
         MW2j2l->Draw();
-        c1->SaveAs("Mass_2jW2l.png");
+        c1->SaveAs("/work/pi_mjrm_umass_edu/LNV_collider/AnalysisOutput/images/Mass_2jW2l.png");
 
         MW2j1l_0->GetXaxis()->SetTitle("GeV");
         MW2j1l_0->Draw();
-        c1->SaveAs("Mass_2jW1l0.png");
+        c1->SaveAs("/work/pi_mjrm_umass_edu/LNV_collider/AnalysisOutput/images/Mass_2jW1l0.png");
 
         MW2j1l_1->GetXaxis()->SetTitle("GeV");
         MW2j1l_1->Draw();
-        c1->SaveAs("Mass_2jW1l1.png");
+        c1->SaveAs("/work/pi_mjrm_umass_edu/LNV_collider/AnalysisOutput/images/Mass_2jW1l1.png");
 
         M2l->GetXaxis()->SetTitle("GeV");
         M2l->Draw();
         if (lowlepcut) c1->SaveAs("Mass_l2_above1GeV.png");
-        else c1->SaveAs("Mass_l2.png");
+        else c1->SaveAs("/work/pi_mjrm_umass_edu/LNV_collider/AnalysisOutput/images/Mass_l2.png");
 
         cout << "out of " << NumEntries << endl;
         for (int i=0; i < sizeof(numCutCats)/sizeof(int); i++) cout << numCutCats[i] << endl;
