@@ -20,7 +20,6 @@ ME5_debug
 MS_debug
 Template/LO/Source/make_opts
 additional_command
-input/mg5_configuration.txt
 input/default_run_card_lo.dat
 input/default_run_card_nlo.dat
 models/*/*.pkl
