@@ -237,6 +237,7 @@ fastjet = ./fastjet-3.4.2/fastjet-config #
 #! (to generate PDF-independent fast-interpolation grids).
 # pineappl = pineappl
 
+set pythia8_path home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/
 
 
 # MG5 MAIN DIRECTORY
