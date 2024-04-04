@@ -47,3 +47,4 @@ Working/Generated/*/*.html
 *.tgz
 *.hep
 *.root
+test/*
