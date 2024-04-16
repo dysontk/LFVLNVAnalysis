@@ -67,18 +67,14 @@
 #!  Defines the path to the pythia8 installation directory (i.e. the
 #!  on containing the lib, bin and include directories) .
 #!  If using a relative path, that starts from the mg5 directory
-pythia8_path = /home/dkennedy_umass_edu/MG5_aMC_v3_5_3/HEPTools/pythia8 #    
- 
- 
+pythia8_path = /home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6 #  
 
 #! MG5aMC_PY8_interface path
 #!  Defines the path of the C++ driver file that is used by MG5_aMC to
 #!  steer the Pythia8 shower.
 #!  Can be installed directly from within MG5_aMC with the following command:
 #!     MG5_aMC> install mg5amc_py8_interface
-mg5amc_py8_interface_path = /home/dkennedy_umass_edu/MG5_aMC_v3_5_3/HEPTools/MG5aMC_PY8_interface #    
- 
- 
+# mg5amc_py8_interface_path = ./HEPTools/MG5aMC_PY8_interface 
 
 #! Herwig++/Herwig7 paths
 #!  specify here the paths also to HepMC ant ThePEG
@@ -87,14 +83,14 @@ mg5amc_py8_interface_path = /home/dkennedy_umass_edu/MG5_aMC_v3_5_3/HEPTools/MG5
 #!  WARNING: if Herwig7 has been installed with the bootstrap script,
 #!  then please set thepeg_path and hepmc_path to the same value as
 #!  hwpp_path
-# hwpp_path = 
-# thepeg_path = 
-# hepmc_path = 
+hwpp_path = /home/dkennedy_umass_edu/MG5_aMC_v3_5_3/test2/None #  
+thepeg_path = /home/dkennedy_umass_edu/MG5_aMC_v3_5_3/test2/None #  
+hepmc_path = /home/dkennedy_umass_edu/MG5_aMC_v3_5_3/test2/None #  
 
 #! Control when MG5 checks if he is up-to-date.
 #! Enter the number of day between two check (0 means never)
 #! A question is always asked before any update
-# auto_update = 7
+auto_update = 7 #  
 
 ################################################################################
 #  INFO FOR MADEVENT / aMC@NLO 
@@ -112,7 +108,7 @@ mg5amc_py8_interface_path = /home/dkennedy_umass_edu/MG5_aMC_v3_5_3/HEPTools/MG5
 
 #! Default Running mode 
 #!  0: single machine/ 1: cluster / 2: multicore
-run_mode = 2
+# run_mode = 2
 
 #! Cluster Type [pbs|sge|condor|lsf|ge|slurm|htcaas|htcaas2] Use for cluster run only
 #!  And cluster queue (or partition for slurm)
@@ -144,32 +140,32 @@ run_mode = 2
 
 #! Nb_core to use (None = all) This is use only for multicore run
 #!  This correspond also to the number core used for code compilation for cluster mode
-nb_core = 1 
+# nb_core = None
 
 #! Pythia-PGS Package
 #!  relative path start from main directory
-# pythia-pgs_path = ./pythia-pgs
+pythia-pgs_path = /home/dkennedy_umass_edu/MG5_aMC_v3_5_3/test2/None #  
 
 #! Delphes Package
 #!  relative path start from main directory
-delphes_path = ./Delphes
+delphes_path = /home/dkennedy_umass_edu/MG5_aMC_v3_5_3/Delphes #  
 
 #! MadAnalysis4 fortran-based package [for basic analysis]
 #!  relative path start from main directory
-# madanalysis_path = ./MadAnalysis
+madanalysis_path = /home/dkennedy_umass_edu/MG5_aMC_v3_5_3/test2/None #  
 
 #! MadAnalysis5 python-based Package [For advanced analysis]
 #!  relative path start from main directory
-# madanalysis5_path = ./HEPTools/madanalysis5/madanalysis5
+madanalysis5_path = /home/dkennedy_umass_edu/MG5_aMC_v3_5_3/test2/None #  
 
 #! ExRootAnalysis Package
 #!  relative path start from main directory
-exrootanalysis_path = ./ExRootAnalysis
+exrootanalysis_path = /home/dkennedy_umass_edu/MG5_aMC_v3_5_3/ExRootAnalysis #  
 
 #! TOPDRAWER PATH
 #!  Path to the directory containing td executables
 #!  relative path start from main directory
-# td_path = ./td
+td_path = /home/dkennedy_umass_edu/MG5_aMC_v3_5_3/test2/None #  
 
 #! lhapdf-config --can be specify differently depending of your python version
 #!  If None: try to find one available on the system
@@ -178,7 +174,7 @@ exrootanalysis_path = ./ExRootAnalysis
 
 #! fastjet-config
 #!  If None: try to find one available on the system
-fastjet = ./fastjet-3.4.2/fastjet-config #  
+# fastjet = fastjet-config
 
 #! eMELA-config 
 #!  If None: try to find one available on the system
@@ -231,33 +227,14 @@ fastjet = ./fastjet-3.4.2/fastjet-config #
 #! SysCalc PATH
 #! Path to the directory containing syscalc executables
 #! relative path start from main directory
-# syscalc_path = ./SysCalc
+syscalc_path = /home/dkennedy_umass_edu/MG5_aMC_v3_5_3/test2/None #  
 
 #! Absolute paths to the config script in the bin directory of PineAPPL
 #! (to generate PDF-independent fast-interpolation grids).
 # pineappl = pineappl
 
-set pythia8_path home/dkennedy_umass_edu/Software/Python/anaconda3/envs/root6/
 
-
-# MG5 MAIN DIRECTORY
-mg5_path = /home/dkennedy_umass_edu/MG5_aMC_v3_5_3
-
-# MG5 MAIN DIRECTORY
-mg5_path = /home/dkennedy_umass_edu/MG5_aMC_v3_5_3
-
-# MG5 MAIN DIRECTORY
-mg5_path = /home/dkennedy_umass_edu/MG5_aMC_v3_5_3
-auto_convert_model = True 
-
-# MG5 MAIN DIRECTORY
-mg5_path = /home/dkennedy_umass_edu/MG5_aMC_v3_5_3
-
-# MG5 MAIN DIRECTORY
-mg5_path = /home/dkennedy_umass_edu/MG5_aMC_v3_5_3
-
-# MG5 MAIN DIRECTORY
-mg5_path = /home/dkennedy_umass_edu/MG5_aMC_v3_5_3
+mg5_path = /home/dkennedy_umass_edu/MG5_aMC_v3_5_3 
 
 # MG5 MAIN DIRECTORY
 mg5_path = /home/dkennedy_umass_edu/MG5_aMC_v3_5_3
